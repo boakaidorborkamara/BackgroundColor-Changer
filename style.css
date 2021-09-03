@@ -1,15 +1,21 @@
 *{
     margin: 0px;
 }
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 nav{
     height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+nav a{
+    text-decoration: none;
 }
 
 nav div{
@@ -25,8 +31,8 @@ nav ul{
     display: flex;
 }
 
-ul li{
-    margin-left: 15px;
+nav ul li{
+    margin-left: 20px;
 }
 
 main{
@@ -52,8 +58,13 @@ main div p{
     background-color: black;
     color: white;
     font-size: 2em;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 30px;
+}
+
+main span{
+    font-weight: bold;
+    color: red;
 }
 
 main div button{
@@ -61,4 +72,9 @@ main div button{
     font-weight: bold;
     border: 1px solid black;
     border-radius: 10px;
+    font-size: 1.2em;
+}
+
+main div button:hover{
+    cursor: pointer;
 }
