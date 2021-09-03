@@ -41,7 +41,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: royalblue;
 }
 
 main div{
@@ -64,7 +63,7 @@ main div p{
 
 main span{
     font-weight: bold;
-    color: red;
+    color: blue;
 }
 
 main div button{
